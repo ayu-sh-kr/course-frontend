@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: {
-      BACKEND_URL: 'http://localhost:8080/api'
+      BACKEND_URL: process.env.BACKEND_URL
     }
   },
   plugins: ['~/plugins/global.client.ts']
