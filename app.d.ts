@@ -15,7 +15,7 @@ declare interface Course {
 }
 
 declare interface Instance {
-    id: string,
+    id: number,
     year: string,
     semester: string,
     course_id: number,
